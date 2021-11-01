@@ -10,7 +10,7 @@ from random import randint, randrange
 # Ask for a State name, then run a query to extract actual stats through
 # Python-SQL integration w/ GUI(Tkinter)
 
-# Please enter database details at line 199 & 200 with other references in the code.
+# Please enter database details at line 197 & 198 with other references in the code.
 
 # Button Function Defintions
 def conFirm():
@@ -194,7 +194,7 @@ def easterEgg():
 cases_DB = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="omaryan", #Enter your Password, if applicable.
+  password="", #Enter your Password, if applicable.
   database="csproj" #Enter the name of database.
 )
 
